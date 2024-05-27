@@ -1,0 +1,6 @@
+<nz-card nzHoverable style="width:240px" [nzCover]="coverTemplate">
+  <nz-card-meta [nzTitle]="event.eventName" nzDescription="www.instagram.com"></nz-card-meta>
+</nz-card>
+<ng-template #coverTemplate>
+  <img alt="example" src="https://static.tkt.ge/img/{{event.imageName}}" />
+</ng-template>
